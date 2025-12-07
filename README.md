@@ -1,2 +1,2 @@
 # Crochet-Store-Website
-A simple website for a local crochet store.
+An E-commerce website for local crochet store.

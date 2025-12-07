@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: #ffe6f2; /* light pink background */
+}
+.navbar .nav-link {
+    color: #6c3483; /* purple text */
+    font-weight: bold;
+}
+.navbar .nav-link:hover {
+    color: #d81b60; /* darker pink on hover */
+}
+
+/* Hero Section Styling */
+header.jumbotron {
+    background-color: #f8bbd0; /* soft pink */
+    color: #4a148c; /* deep purple text */
+    padding: 50px 20px;
+}
+
+/* Product Card Customization */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+.card .btn-success {
+    background-color: #6a1b9a;
+    border: none;
+}
+.card .btn-success:hover {
+    background-color: #8e24aa;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4a148c;
+    color: white;
+    font-size: 14px;
+}
+footer a {
+    color: #f8bbd0;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustment for Mobile */
+@media (max-width: 768px) {
+    header.jumbotron h1 {
+        font-size: 28px;
+    }
+    .card img {
+        height: 200px;
+    }
+}
+
+/* Product Card Hover Effect */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* back to top */
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none; /* hidden by default */
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background-color: #8e24aa;
+}
